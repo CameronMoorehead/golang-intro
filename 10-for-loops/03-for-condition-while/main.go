@@ -8,4 +8,8 @@ func main() {
 		fmt.Println("test")
 		i++
 	}
+
+	for j := 0; j <= 5000; j++ {
+		fmt.Printf("%v - %v - %v\n", j, string(j), []byte(string(j)))
+	}
 }
